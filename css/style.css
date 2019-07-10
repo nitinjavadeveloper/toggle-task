@@ -1,0 +1,52 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.navbar
+{
+    background: #6d6d6d;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar a
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 28px;
+
+}
+
+/* #toggle
+{
+    display: none;
+} */
+
+.navbar a:hover
+
+{
+    background: #6d6d6d;;
+    color: black;
+}
+
+
+@media screen and (max-width: 720px) {
+    .navbar
+    {
+        flex-direction: column;
+        display: none;
+    }
+
+#toggle:checked + .navbar
+
+    {
+        display: flex;
+    }
+  
+  }
